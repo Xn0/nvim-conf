@@ -166,6 +166,19 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- Tabs beheviour
+-- Convert tabs to spaces
+vim.opt.expandtab = true
+
+-- The number of spaces inserted for each indentation
+vim.opt.shiftwidth = 4
+
+-- The number of spaces a <Tab> counts for
+vim.opt.tabstop = 4
+
+-- The number of spaces a <Tab> counts for while performing editing operations
+vim.opt.softtabstop = 4
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
